@@ -1,20 +1,25 @@
-# Millers
-job ticket and was asked to complete the task below
-# Marketing agency
-WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-Acceptance Criteria
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-Mock-Up
+Prework Study Guide Webpage
+Description
+to have a better understanding of coding
+to get a hands on experience as well as having a websit to display what I am abel to do 
+and show i can do HTML,GIT and CSS
+Installation
+N/A
 
-all task were complete as best to my knowledge as a new devloper.
+Usage
+For employers to see how creative and capable i am in HTML,CSS and git
+
+Credits
+n/a
+
+License
+MIT refer to repo
+
+
+
+Features
+the photos are linked to my projects and my Resume 
+
+How to Contribute
+give me feed back good or bad is the way we grow and learn 
+
