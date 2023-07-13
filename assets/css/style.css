@@ -1,0 +1,189 @@
+:root {
+    --div-background-color: black; /* Define a custom CSS variable */
+  }
+  
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: white;
+  }
+  
+  header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--div-background-color);
+    color: #ffffff;
+  }
+  
+  header h1 {
+    display: inline-block;
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  header h1 .seo {
+    color: #ffffff;
+    font-style: normal;
+  }
+  
+  header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  .hero {
+    position: relative;
+    background-image: url('../images/Blue-Wall.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  .text-overlay h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .text-overlay p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .Past-Jobs {
+    /* Styles for the article container */
+    position: relative;
+    top: 0%;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  
+  @media all and (max-width: 500px) {
+    .image-container {
+      position: relative;
+      top: 20%;
+      height: 200px;
+      width: 200px;
+    }
+  }
+  
+  .overlay {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .box {
+    flex: 1;
+    background-color: var(--div-background-color);
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .box img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .box:hover {
+    background-color: #5a64f7; /* Highlight color */
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .box2 {
+    flex: 1;
+    background-color: var(--div-background-color);
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .box2 img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .box2:hover {
+    background-color: #5a64f7; /* Highlight color */
+  }
+  
+  .box img {
+    max-height: 700px;
+  }
+  
+  .box2 img {
+    max-height: 700px;
+  }
+  
+  .box h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  .box2 h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  .My-links a {
+    color: blue; /* Change the text color for links within My-links section */
+    font-family: Arial, sans-serif;
+  }
+  
+  footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+  }
+  
+  footer h4 {
+    font-size: 20px;
+  }
+  
